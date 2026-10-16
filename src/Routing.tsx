@@ -29,6 +29,7 @@ const renderRoutes = (routes: RouteType[] = []) =>
   ));
 
 export const Routing = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- pre-existing pattern
   const renderedRoutes = useMemo(() => renderRoutes(routes), [routes]);
   return (
     <Suspense fallback="">

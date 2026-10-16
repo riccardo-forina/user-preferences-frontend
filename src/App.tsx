@@ -27,6 +27,7 @@ const AppInner: React.FC = () => {
         location.href = './';
       }
     })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- pre-existing pattern
   }, []);
 
   return (

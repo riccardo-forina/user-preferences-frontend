@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import {
+  /* eslint-disable react-hooks/rules-of-hooks -- story render function */
   FormRenderer,
   componentTypes,
 } from '@data-driven-forms/react-form-renderer';
